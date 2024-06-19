@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="format-detection	" content="telephone=no">
+	<meta name="description" content="Описание страницы">
+	<title>Cитистрой. Дизайн, проектирование и ремонт коммерческих помещений</title>
+	<!-- OpenGraph -->
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https:" />
+	<meta property="og:title" content="Дизайн, проектирование и ремонт коммерческих помещений"/>
+	<meta property="og:description" content="Описание страницы" />
+	<meta property="og:image" content="img.jpg" />
+	<!-- telegram_image1x1 -->
+	<meta name="twitter:card" content="img.jpg" />
+	<!-- SEO -->
+	<meta name="keywords" content="теги СЕО">
+	<!-- fav -->
+	<link type="image/x-icon" href="/assets/img/icon/fav.ico" rel="shortcut icon">
+	<link type="Image/x-icon" href="/assets/img/icon/fav.ico" rel="icon">
+	<!-- link -->
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/modal.css">
+	<link rel="stylesheet" href="css/font.css">
+	<script defer src="libs/inputmask.min.js"></script>
+	<script defer src="libs/just-validate3.3.3.min.js"></script>
+	<script src="libs/jquery-3.7.1.min.js"></script>
+	<script defer src="js/script-new.js"></script>
+	<script defer src="js/main.js"></script>
+	<script defer src="js/modal.js"></script>
+	<script defer src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+</head>
+
+<header>
+	<nav class="menu"
+	onmouseenter="logo__player.play()" 
+		onmouseleave="logo__player.stop()">
+		
+			<div class="menu__logo"
+				alt="logo">
+				<a class="logo__a" href="#">
+					<dotlottie-player 
+						id="logo__player"
+						class="logo__player"
+						src="/assets/animation/logo.json" 
+						background="transparent" 
+						speed="1" 
+						loop="false"
+						autoplay="false">
+					</dotlottie-player>
+				</a>
+			</div>
+	
+		<ul class="menu__main">
+				<li><a class="menu__main__item" href="#">Главная</a></li>
+				<li><a class="menu__main__item" href="#">Технологии</a></li>
+				<li><a class="menu__main__item" href="#">Дизайн</a></li>
+				<li><a class="menu__main__item" href="#">Проектирование</a></li>
+				<li><a class="menu__main__item" href="#">Ремонт и СМР</a></li>
+				<li><a class="menu__main__item" href="#">Портфолио</a></li>
+				<li><a class="menu__main__item" href="#">Контакты</a></li>
+				<li><a class="button-menu button modal__btn" href="#">Связаться с нами</a></li>
+		</ul>
+		<ul class="menu__link">
+			<li>
+				<a href="#">
+					<img class="menu__link__item" src="/assets/img/mail.png">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="menu__link__item" src="/assets/img/phone.png">
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<img class="menu__link__item" src="/assets/img/you.png">
+				</a>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<body>
+	<section class="main-section">
+<!-- SCREEN_1-TITLE -->
+	<article class="title__con">
+		<div class="title">
+			<div class="title__text">
+				<div>
+					<h1> ДИЗАЙН &nbsp ПРОЕКТИРОВАНИЕ &nbsp РЕМОНТ &nbsp </h1>
+					<div class="swiper title__slide">
+						<div class="swiper-wrapper title__item">
+							<div class="swiper-slide"><h1>ПОМЕЩЕНИЙ</h1></div>
+							<div class="swiper-slide"><h1>РЕСТОРАНОВ</h1></div>
+							<div class="swiper-slide"><h1>МАГАЗИНОВ</h1></div>
+							<div class="swiper-slide"><h1>КАФЕ</h1></div>
+						</div>	
+					</div>
+				</div>
+				<h2>
+					Строим коммерческие помещения с нуля до пуска в 
+					эксплуатацию и постгарантийного обслуживания
+				</h2>
+			</div>
+			<div class="title__button">
+				<button class="button modal__btn">
+					СВЯЗАТЬСЯ С НАМИ
+				</button>
+				<div class="down" 
+				onmouseenter="down__button.play()" 
+				onmouseleave="down__button.stop()"	>
+				<dotlottie-player
+				id="down__button"
+				class="down__button"
+				src="/assets/animation/down.json" 
+				background="transparent" 
+				speed="1">
+				</dotlottie-player>
+				</div>
+			</div>
+
+		
+			
+
+			</div>
+			<div class="video__con">
+				<video class="video" loop="true" muted="true" autoplay="true" poster="">
+					<source src="/assets/video/City.mp4" type="video/mp4">
+				</video>
+		</div>
+		<div class="video__cover"></div>
+		</div>
+	</article>
+<!-- VIDEO-BG-->
+
+
+
+<!-- SCREEN_2 ABOUT-->
+<article class="about">
+	<h1 class="about__title">За счёт строительного опыта и технических компетенций:</h1>
+	<div class="about__item">
+		<h3>
+			<img src="/assets/img/icon/Subtract-1.png" alt="">
+			Cокращаем сроки сдачи объекта
+		</h3>
+		<h3>
+			<img src="/assets/img/icon/Subtract.png" alt="">
+			Оптимизируем бюджет без потери качества
+		</h3>
+		<h3 >
+			<img src="/assets/img/icon/Subtract-2.png" alt="">
+			Уберегаем заказчика от переплат и ошибок
+		</h3>
+	</div>
+	<div class="about__column">
+		<div>
+			<div>
+				<img src="/assets/img/icon/Frame 34.svg" alt="">
+				<h1 class="about__column_2">Генеральный подрядчик</h1>
+			</div>
+			<h3>На всех объектах установлено круглосуточное видеонаблюдение с доступом для Заказчика на удобное устройство</h3>
+		</div>
+		<div>
+			<div>
+				<img src="/assets/img/icon/Frame 34.svg" alt="">
+				<h1>Глубокое погружение в каждый проект</h1>
+			</div>
+			<h3>В целях экономии средств Заказчика уделяем внимание аспектам, выходящих за рамки нашей ответственности и даем рекомендации по исправлению/избеганию ошибок смежников</h3>
+		</div>
+		<div>
+			<div>
+				<img src="/assets/img/icon/Frame 34.svg" alt="">
+				<h1>Ежедневные фото и видео отчёты</h1>
+			</div>
+			<h3>Выполняем весь спектр задач в рамках нашей основной компетенции, координируем субподрядные и смежные компании, работаем на один общий результат</h3>
+		</div>
+		<div>
+			<div>
+				<img src="/assets/img/icon/Frame 34.svg" alt="">
+				<h1>Ежедневные фото и видео отчёты</h1>
+			</div>
+			<h3>Каждый день от руководителя стройки приходит видео отчет о проделанной работе за предыдущий день</h3>
+		</div>
+	</div>
+	<button class="button-about button">ОБСУДИТЬ ПРОЕКТИРОВАНИЕ</button>
+</article>
+
+<!-- SWIPER-TICKER -->
+	<div class="swiper ticker">
+		<h1 class="ticker__name">НАШИ КЛИЕНТЫ</h1>
+    <div class="swiper-wrapper">
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (1).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (2).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (3).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (4).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (5).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (6).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (7).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (8).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (9).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (10).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (11).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (12).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (13).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (14).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (15).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (16).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (17).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (18).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (19).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (20).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (21).svg"></div>
+			<div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (22).svg"></div>
+      <div class="swiper-slide ticker__slide"><img src="assets/img/logo_swiper/swiper (23).svg"></div>
+    </div>
+	</div> 
+
+<!-- CART -->
+<h1 class="cart-title" >НАШИ ПРОЕКТЫ</h1>
+<div class="cart">
+	
+	<div class="cart__item ken-burns">
+		<div class="cart__filter">
+			<div class="cart__content">
+				<h3 class="cart__location">ТЦ Саларис</h3>
+				<img class="cart__logo" src="/assets/img/icon/logo/Frame 7.png" alt="">
+				<h1 class="cart__title">BLACK STAR BURGER</h1>
+				<h2 class="cart__sub-title">Бургерная 180 м&#178</h2>
+				<div class="cart__link">
+					<button class="cart__button button">ПОДРОБНЕЕ О ПРОЕКТЕ</button>
+					<div class="cart__youtube"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cart__item ken-burns">
+		<div class="cart__filter">
+			<div class="cart__content">
+				<h3 class="cart__location">ТЦ Саларис</h3>
+				<img class="cart__logo" src="/assets/img/icon/logo/Frame 7.png" alt="">
+				<h1 class="cart__title">BLACK STAR BURGER</h1>
+				<h2 class="cart__sub-title">Бургерная 180 м&#178</h2>
+				<div class="cart__link">
+					<button class="cart__button button">ПОДРОБНЕЕ О ПРОЕКТЕ</button>
+					<div class="cart__youtube"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cart__item ken-burns">
+		<div class="cart__filter">
+			<div class="cart__content">
+				<h3 class="cart__location">ТЦ Саларис</h3>
+				<img class="cart__logo" src="/assets/img/icon/logo/Frame 7.png" alt="">
+				<h1 class="cart__title">BLACK STAR BURGER</h1>
+				<h2 class="cart__sub-title">Бургерная 180 м&#178</h2>
+				<div class="cart__link">
+					<button class="cart__button button">ПОДРОБНЕЕ О ПРОЕКТЕ</button>
+					<div class="cart__youtube"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cart__item ken-burns">
+		<div class="cart__filter">
+			<div class="cart__content">
+				<h3 class="cart__location">ТЦ Саларис</h3>
+				<img class="cart__logo" src="/assets/img/icon/logo/Frame 7.png" alt="">
+				<h1 class="cart__title">BLACK STAR BURGER</h1>
+				<h2 class="cart__sub-title">Бургерная 180 м&#178</h2>
+				<div class="cart__link">
+					<button class="cart__button button">ПОДРОБНЕЕ О ПРОЕКТЕ</button>
+					<div class="cart__youtube"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</div>
+
+
+<!-- СХЕМА -->
+<div class="shema">
+	<div class="shema__item">
+		<h1 class="shema__title">АНАЛИЗ Т.У.</h1>
+		<ul class="shema__sub-title">
+			<li class="shema__title__item">Сбор исходных данных</li>
+			<li class="shema__title__item">Анализ технических условий</li>
+		</ul>
+	</div>
+	<img class="shema__right" src="/assets/img/icon/right.png"></img>
+	<div class="shema__item">
+		<h1 class="shema__title">ТЕХНОЛОГИЯ<br>ДИЗАЙН</h1>
+		<ul class="shema__sub-title">
+			<li class="shema__title__item">Разработка технологий</li>
+			<li class="shema__title__item">Дизайн проект</li>
+		</ul>
+	</div>
+	<img class="shema__right" src="/assets/img/icon/right.png"></img>
+	<div class="shema__item">
+		<h1 class="shema__title">ПРОЕКТИРОВАНИЕ</h1>
+		<img class="shema__img" src="/assets/img/icon/Group 9136 (1).svg" alt="">
+		<!-- <ul class="shema__sub-title">
+			<li>На основание технологии и дизайна разрабатываются
+				архитектурные решения <b>(АР)</b> и инженерные проекты:</li>
+			<li>ОВиК - отопление, вентиляция и кондиционирование</li>
+			<li>ВК - водоснабжение, канализация</li>
+			<li>СКС - структурированные кабельные системы</li>
+			<li>ЭОМ - электроснабжение, электроосвещение</li>
+			<li>КМ - конструкции металлические</li>
+		</ul> -->
+	</div>
+	<img class="shema__right" src="/assets/img/icon/right.png"></img>
+	<div class="shema__item">
+		<h1 class="shema__title">СМЕТА</h1>
+		<ul class="shema__sub-title">
+			<li class="shema__title__item" >Честные смены</li>
+			<li class="shema__title__item">Подсчёт всего и сразу</li>
+		</ul>
+	</div>
+	<img class="shema__right" src="/assets/img/icon/right.png"></img>
+	<div class="shema__item">
+		<h1 class="shema__title">СРМ</h1>
+		<ul class="shema__sub-title">
+			<li class="shema__title__item">Выполнение всех работ <br> согласно проекту</li>
+			<li class="shema__title__item">Инженеры и проектировщики</li>
+			<li class="shema__title__item">Квалифицированные строители</li>
+		</ul>
+	</div>
+	<img class="shema__right" src="/assets/img/icon/right.png"></img>
+	<div class="shema__item">
+		<h1 class="shema__title">ГАРАНТИЙНОЕ И СЕРВИСНОЕ ОБСЛУЖИВАНИЕ</h1>
+		<ul class="shema__sub-title">
+			<li class="shema__title__item">1 год сервисного обслуживания</li>
+			<li class="shema__title__item">Постгарантийное обслуживание <br> на договорных условиях</li>
+		</ul>
+	</div>
+</div>
+
+
+
+<div class="modal-over"></div>
+<div class="modal">
+	<img class="modal__logo" src="/assets/img/logo.svg" alt="">
+
+	<form class="modal__pop popup_form" action="#" method="POST" enctype="multipart/form-data">
+		<label class="modal__lab form__label" for="">Имя
+			<input class="input modal__input input-name" type="text" data-validate-field="name" name="Имя" onkeyup="nameBD.value = this.value" placeholder="Введите имя" autofocus>
+		</label>
+		<label class="modal__lab form__label" for="">Email
+			<input class="input input-mail modal__input" type="email" data-validate-field="email" name="Email" onkeyup="emailBD.value = this.value" placeholder="Введите почту">
+		</label>
+		<label class="modal__lab form__label" for="">Телефон
+			<input class="input modal__input input-tel" onkeyup="phoneBD.value = this.value" type="tel" data-validate-field="tel" name="Телефон" placeholder="Введите телефон">
+		</label>
+		<label class="modal__lab form__label" for="">Сообщение
+			<textarea class="modal__input textarea" id="textarea" onkeyup="textareaBD.value = this.value" name="Сообщение" cols="20" rows="4" placeholder="Введите сообщение" maxlength="140"></textarea>
+		</label>
+		<div class="modal__check-con">
+			<input id="modal__check" type="checkbox" checked>
+			<label id="ch" method="post" type="checkbox" value="1" class="modal__check-text" for="modal__check">
+				<span class="modal__check"></span>
+				Согласие на обработку данных
+				<a href="#"><img class="modal__check-que" src="/assets/img/icon/que.svg" alt=""></a>
+			</label>
+		</div>
+		<button  id="btn" class="button">Отправить</button>
+	</form>
+<!-- FORM BD -->
+	<div class="containerDB">
+		<form action="sql/check.php" class="containerDB_form" method="POST" enctype="multipart/form-data">
+			<input type="hidden" id="nameBD" type="text" name="name" >
+			<input type="hidden" id="emailBD" type="email" name="email">
+			<input type="hidden" id="phoneBD" type="tel" name="phone">
+			<input type="hidden" id="textareaBD" name="textarea"  ></input>
+			<button type="hidden" id="btnBD" >Отправить</button>
+		</form>
+	</div>
+</div>
+
+
+
+</section>
+</body>
+
+<footer>
+
+	<nav class="footer-menu"
+	onmouseenter="footer__player.play()" 
+	onmouseleave="footer__player.stop()">
+		<div class="footer__logo"
+				alt="img/alt_logo">
+				<a class="footer__linc-logo" href="#">
+					<dotlottie-player 
+						class="footer__player"
+						src="/assets/animation/logo.json" 
+						background="transparent" 
+						speed="1" 
+						loop="false"
+						autoplay="false">
+					</dotlottie-player>
+				</a>
+			</div>
+
+	<ul class="menu__main">
+			<li><a class="menu__main__item" href="#">Главная</a></li>
+			<li><a class="menu__main__item" href="#">Технологии</a></li>
+			<li><a class="menu__main__item" href="#">Дизайн</a></li>
+			<li><a class="menu__main__item" href="#">Проектирование</a></li>
+			<li><a class="menu__main__item" href="#">Ремонт и СМР</a></li>
+			<li><a class="menu__main__item" href="#">Портфолио</a></li>
+			<li><a class="menu__main__item" href="#">Контакты</a></li>
+			<li><a class="button-menu button modal__btn" href="#">Связаться с нами</a></li>
+	</ul>
+	<div class="footer__about">
+		<h1 class="footer__text">
+			ООО "СИТИСТРОЙ" <br	>ИНН 7730212956 ОГРН 1167746840117 © 2014-2024
+		</h1>
+		<h2 class="footer_sub-text">
+			Политика конфиденциальности. <br> Информация, размещенная на сайте, 
+			носит ознакомительный характер и ни при каких условиях не является 
+			публичной офертой определяемой положением Статьи 437 Гражданского 
+			кодекса Российской Федерации.
+		</h2>
+	</div>
+</nav>
+	<!-- <div class="popup">
+		<form action="#" class="popup_form" method="POST" enctype="multipart/form-data">
+			<label class="form__label">
+				<input class="input input-name" onkeyup="nameBD.value = this.value" type="text" data-validate-field="name" name="Имя" placeholder="Введите имя">
+			</label>
+	
+			<label class="form__label">
+				<input class="input input-mail" onkeyup="emailBD.value = this.value" type="email" data-validate-field="email" name="Email" placeholder="Введите email">
+			</label>
+	
+			<label class="form__label">
+				<input class="input input-tel" onkeyup="phoneBD.value = this.value" type="tel" data-validate-field="tel" name="Телефон" placeholder="Введите телефон">
+			</label>
+	
+			<label class="form__label">
+				<textarea class="textarea" onkeyup="textareaBD.value = this.value" name="Сообщение" id="" cols="30" rows="10" placeholder="Введите ваше сообщение"></textarea>
+			</label>
+	
+			<label class="form__label">
+				<input id="1" method="post" type="checkbox" value="1" />
+			</label>
+			<button id="btn" >Отправить</button>
+		</form>
+	</div> -->
+
+
+	
+</footer>
+
+
+</html>
